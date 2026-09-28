@@ -1,8 +1,8 @@
-# PUF Wiki: Hsu-inspired model A, Top30 edition
+# PUF Wiki: PUF-ESM, Top30 edition
 
 Two English Wiki pages, a native editable workflow, three ORCA result plots, all 66 rankings and model/subset comparison tables. The main recovery chart displays Top5, Top15 and Top30 using integer model hit labels. The two redundant summary tables are omitted from the Markdown pages; source CSVs remain available.
 
-Hsu A: Spearman 0.404947; Top30 overlap 20/30 (66.7%), random expectation 13.64/30 (45.5%); enrichment 1.47×. Selected mean measured S is 0.291578. All five highlighted constructs enter predicted Top30.
+PUF-ESM: Spearman 0.404947; Top30 overlap 20/30 (66.7%), random expectation 13.64/30 (45.5%); enrichment 1.47×. Selected mean measured S is 0.291578. All five highlighted constructs enter predicted Top30.
 
 Reporting K was changed after examining predictions. The feature ablations were fitted in this edition; previous model predictions were reproduced, and the historical inner-selection protocol remains unchanged. Measurements provide retrospective agreement only. Subsets smaller than 30 have no Top30 metric. Previous packages retain all earlier results.
 

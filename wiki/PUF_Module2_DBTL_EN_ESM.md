@@ -8,13 +8,13 @@ $$S=C_{388}-\frac{C_{295}+C_{871}}{2}.$$
 
 Our two experimental batches contain 81 constructs. Sixty-six have measurements at all three sites; the remaining 15 lack at least one measurement. All 66 complete scores are positive. The current task is therefore **ranking among constructs with known positive S**. The S > 0 specificity classifier remains untrained because no negative class is available.
 
-## Model principles: combining evolutionary and assay information
+## Model principles: PUF-ESM Specificity Ranker
 
 We adapted the approach of [Hsu et al.](https://doi.org/10.1038/s41587-021-01146-5), which combines evolutionary information with assay-labelled sequence features. Our implementation joins a frozen ESM-2 score with reference-centred one-hot sequence encoding, then fits Ridge regression to the measured editing outputs.
 
 ![Sequence features, training-side selection, three editing predictions and specificity ranking](https://raw.githubusercontent.com/pdx12320/igem_module2/main/wiki/figures/architecture/figure@2x.png)
 
-*Figure 1. Hsu-inspired ESM-2 augmentation. A 493-residue sequence supplies reference-centred one-hot features and an ESM-2 mutation score. Three Ridge regressors use the available labels for C295, C388 and C871. Their predictions define S. Grouped inner validation selects parameters within each outer training fold. Held-out predictions evaluate ranking across the 66 complete constructs. The diagram describes this adaptation, not an exact reproduction of Hsu et al.*
+*Figure 1. PUF-ESM feature integration. A 493-residue sequence supplies reference-centred one-hot features and an ESM-2 mutation score. Three Ridge regressors use the available labels for C295, C388 and C871. Their predictions define S. Grouped inner validation selects parameters within each outer training fold. Held-out predictions evaluate ranking across the 66 complete constructs. The diagram describes this adaptation, not an exact reproduction of Hsu et al.*
 
 ### Sequence features and missing measurements
 
@@ -37,7 +37,7 @@ from model import encode, fit, predict
 
 onehot, esm_score = encode(sequences, reference, reference_logp)
 models = fit(onehot, esm_score, Y, train_idx,
-             "Hsu_ESM2_OneHot_Ridge", selected_spec)
+             "PUF_ESM", selected_spec)
 C_hat = predict(models, onehot, esm_score, test_idx)
 S_hat = C_hat[:, 1] - (C_hat[:, 0] + C_hat[:, 2]) / 2
 ```
@@ -46,7 +46,7 @@ Here, `Y` contains C295, C388 and C871 in that order. The excerpt uses the exper
 
 ## Results: overall ranking and Top-K recovery
 
-The Hsu-inspired model with strategy A reached **Spearman ρ = 0.405** and **Kendall τ = 0.264**. It had the highest Spearman correlation among the original 12 methods in the matched comparison and among the five feature ablations below. This scope does not establish it as the best historical model or the best method for every Top30 objective.
+The PUF-ESM Specificity Ranker reached **Spearman ρ = 0.405** and **Kendall τ = 0.264**. It had the highest Spearman correlation among the original 12 methods in the matched comparison and among the five feature ablations below. This scope does not establish it as the best historical model or the best method for every Top30 objective.
 
 Removing the evolutionary feature reduced Spearman correlation to 0.292 in the matched one-hot Ridge model using the same A selection rule. Frozen local ESM plus Ridge reached 0.289 under its existing B selection rule. The latter comparison changes both features and selection strategy, so it does not isolate the contribution of evolutionary augmentation.
 
@@ -112,7 +112,7 @@ Within each eligible group, we chose the five smallest absolute differences betw
 
 ![Five concordant higher-ranked examples followed by five concordant lower-ranked examples](https://raw.githubusercontent.com/pdx12320/igem_module2/main/wiki/figures/selected_cases/figure@2x.png)
 
-*Figure 7. Post hoc rank-agreement examples for Hsu-inspired model A among 66 complete constructs. The first five cases belong to both Top30 sets; the final five belong to both bottom-30 sets. Every prediction excludes its own sequence group during training. Cases were selected for small absolute rank errors, so their agreement is not representative of the whole cohort. Existing measurements provide retrospective comparison, not subsequent independent validation.*
+*Figure 7. Post hoc rank-agreement examples for PUF-ESM among 66 complete constructs. The first five cases belong to both Top30 sets; the final five belong to both bottom-30 sets. Every prediction excludes its own sequence group during training. Cases were selected for small absolute rank errors, so their agreement is not representative of the whole cohort. Existing measurements provide retrospective comparison, not subsequent independent validation.*
 
 #### Five higher-ranked examples
 

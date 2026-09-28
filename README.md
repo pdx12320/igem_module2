@@ -6,7 +6,7 @@
 - [Module 2 Design–Build–Test–Learn](wiki/PUF_Module2_DBTL_EN_ESM.md)
 - [Reusable Markdown and image addresses](wiki/REUSE_LINKS.md)
 
-The current pages include the Hsu-inspired ESM-2 score + one-hot + Ridge model, matched feature ablations, Top5/15/30 recovery, and 15 retrospective case examples. All model assessments are development-stage cross-validation, not independent prospective validation.
+The current pages include the PUF-ESM Specificity Ranker (ESM-2 score + one-hot + Ridge), matched feature ablations, Top5/15/30 recovery, and 15 retrospective case examples. All model assessments are development-stage cross-validation, not independent prospective validation.
 
 ## Reproducibility
 
