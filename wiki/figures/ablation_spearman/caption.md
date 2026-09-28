@@ -1,0 +1,1 @@
+Matched feature ablation on 66 complete constructs. Spearman correlations: position-only Ridge 0.154702; amino-acid one-hot Ridge 0.291848; ESM-2 zero-shot −0.265421; score-only Ridge 0.097756; combined 0.404947. Identical grouped CV and A selection for supervised methods. No uncertainty intervals estimated.

@@ -1,0 +1,1 @@
+Top30 overlaps for the same 66 constructs: position-only Ridge 14, amino-acid one-hot Ridge 16, ESM-2 zero-shot 9, score-only Ridge 16, and combined 20. The dashed line marks the uniform random expectation 30²/66 = 13.64. Top30 was chosen retrospectively for reporting; no model selection uses outer labels.

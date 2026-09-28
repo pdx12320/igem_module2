@@ -1,0 +1,1 @@
+Hsu-inspired ESM-2 augmentation workflow. Sequence-derived evolutionary scores and reference-centred one-hot encoding feed separate Ridge regressors for C295, C388 and C871. Training-side grouped CV selects hyperparameters; the output specificity score ranks held-out constructs. This is an adaptation, not exact replication.

@@ -1,0 +1,1 @@
+Ranks of all five highlighted constructs within the 66 complete constructs. Shading marks Top30. All five constructs enter predicted Top30. P9-GNS and P9-NPS rank 4 and 15 by prediction; the other three rank 19–24. Each OOF fold excludes its own test sequence group, not all five jointly. Measurements predate this retrospective analysis.

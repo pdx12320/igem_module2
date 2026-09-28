@@ -1,0 +1,20 @@
+{
+  "excluded_original_five": [
+    "25_p9_gns",
+    "30_p9_nps",
+    "31_p9_nsg",
+    "32_p9_ntq",
+    "p8_r6_gve"
+  ],
+  "higher_pool": "predicted rank <=30 AND measured rank <=30",
+  "lower_pool": "predicted rank >=37 AND measured rank >=37",
+  "selection_order": [
+    "absolute rank error ascending",
+    "absolute S error ascending",
+    "construct_id ascending"
+  ],
+  "per_group": 5,
+  "scope": "Post hoc illustrative cases selected using measured outcomes; not independent validation or unbiased performance evidence",
+  "ranking_model": "Hsu_ESM2_OneHot_Ridge_A",
+  "unchanged_cohort": 66
+}

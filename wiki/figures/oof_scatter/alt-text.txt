@@ -1,0 +1,1 @@
+Scatter plot of all 66 measured and out-of-fold predicted specificity scores, with an identity line and predicted Top30 highlighted.

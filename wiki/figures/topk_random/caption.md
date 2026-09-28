@@ -1,0 +1,1 @@
+Figure 2. Top-K recovery in development-stage cross-validation for K = 5, 15 and 30. A hit appears in both the predicted and measured Top-K sets among the same 66 constructs. Model labels show integer hit counts: 1, 6 and 20. Uniform random selection gives expected overlap K²/66: 0.38, 3.41 and 13.64. Fractional baseline values are expectations, not observed counts.

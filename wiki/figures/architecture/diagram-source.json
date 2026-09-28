@@ -1,0 +1,58 @@
+[
+  {
+    "id": "sequence",
+    "text": "493-aa PUF\nsequence",
+    "x": 30,
+    "y": 165,
+    "w": 210,
+    "h": 115
+  },
+  {
+    "id": "esm",
+    "text": "Frozen ESM-2 35M\nmutation score",
+    "x": 310,
+    "y": 65,
+    "w": 330,
+    "h": 105
+  },
+  {
+    "id": "onehot",
+    "text": "Reference-centred\none-hot encoding",
+    "x": 310,
+    "y": 270,
+    "w": 330,
+    "h": 105
+  },
+  {
+    "id": "ridge",
+    "text": "Three Ridge outputs\nC295 · C388 · C871",
+    "x": 730,
+    "y": 165,
+    "w": 420,
+    "h": 115
+  },
+  {
+    "id": "validation",
+    "text": "Grouped inner CV\nA: Spearman selection",
+    "x": 730,
+    "y": 25,
+    "w": 420,
+    "h": 95
+  },
+  {
+    "id": "specificity",
+    "text": "Predicted specificity\nS = C388 − (C295 + C871)/2",
+    "x": 680,
+    "y": 475,
+    "w": 470,
+    "h": 105
+  },
+  {
+    "id": "evaluation",
+    "text": "66 held-out predictions\nTop30 vs random expectation",
+    "x": 65,
+    "y": 475,
+    "w": 495,
+    "h": 105
+  }
+]

@@ -1,0 +1,1 @@
+Ten selected constructs with paired predicted and measured ranks. Top group rank errors are 0–3; bottom group errors are 0–4. All original five targets are excluded.

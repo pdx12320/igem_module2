@@ -1,0 +1,28 @@
+{
+  "template_version": "orca-data-1.1",
+  "font": "Futura",
+  "cjk_font": "Arial Unicode MS",
+  "notes": [],
+  "runtime": {
+    "python": "3.12.14",
+    "matplotlib": "3.10.8",
+    "numpy": "2.5.3"
+  },
+  "export": {
+    "width_in": 11.0,
+    "height_in": 10.0,
+    "dpi": 174.54545454545453,
+    "display_width_px": 960,
+    "svg_text": "paths",
+    "pdf_fonttype": 42
+  },
+  "provenance": {
+    "source": "data/selected_rank_cases.csv",
+    "sha256": "fd0fa8d2f0093121b8ca33eef791834549b62c03af274a33bad059817b9a53cd",
+    "selection": "data/case_selection_protocol.json",
+    "n_cohort": 66,
+    "n_examples": 10,
+    "post_hoc": true,
+    "script": "scripts/plot_cases.py"
+  }
+}

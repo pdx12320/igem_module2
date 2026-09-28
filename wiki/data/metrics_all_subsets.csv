@@ -1,0 +1,53 @@
+model,subset,n,Spearman,Kendall,Top30_overlap,Top30_hit_rate,Top30_random_expected,Top30_enrichment,Top30_mean_S,Top30_status
+B0_mean_B,all,66,-0.9903976620394533,-0.9319347319347319,0,0.0,13.636363636363637,0.0,0.16899541666666662,Development-stage; retrospective reporting choice
+B0_mean_B,batch1,25,-0.9838461538461538,-0.9266666666666664,,,,,,Not evaluable: fewer than 30 constructs
+B0_mean_B,batch2,41,-0.9902439024390245,-0.9365853658536585,19,0.6333333333333333,21.951219512195124,0.8655555555555555,0.18749808333333332,Development-stage; retrospective reporting choice
+B0_mean_B,double_repeat,4,-1.0,-1.0,,,,,,Not evaluable: fewer than 30 constructs
+B1_sequence_Ridge_B,all,66,0.3610687819643044,0.2568764568764568,19,0.6333333333333333,13.636363636363637,1.3933333333333333,0.2766138333333333,Development-stage; retrospective reporting choice
+B1_sequence_Ridge_B,batch1,25,-0.07307692307692308,-0.046666666666666655,,,,,,Not evaluable: fewer than 30 constructs
+B1_sequence_Ridge_B,batch2,41,0.4764808362369339,0.3463414634146341,24,0.8,21.951219512195124,1.0933333333333333,0.23653516666666663,Development-stage; retrospective reporting choice
+B1_sequence_Ridge_B,double_repeat,4,0.19999999999999998,0.0,,,,,,Not evaluable: fewer than 30 constructs
+CP_Ridge_B,all,66,0.06911595866819749,0.04895104895104895,12,0.4,13.636363636363637,0.88,0.24985633333333332,Development-stage; retrospective reporting choice
+CP_Ridge_B,batch1,25,-0.19769230769230767,-0.13999999999999996,,,,,,Not evaluable: fewer than 30 constructs
+CP_Ridge_B,batch2,41,0.2341463414634147,0.16341463414634147,24,0.8,21.951219512195124,1.0933333333333333,0.23822516666666668,Development-stage; retrospective reporting choice
+CP_Ridge_B,double_repeat,4,0.6000000000000001,0.3333333333333334,,,,,,Not evaluable: fewer than 30 constructs
+ESM2_score_Ridge_A,all,66,0.09775597536791569,0.05174825174825175,16,0.5333333333333333,13.636363636363637,1.1733333333333333,0.263701,Development-stage; retrospective reporting choice
+ESM2_score_Ridge_A,batch1,25,-0.011538461538461539,-0.02666666666666666,,,,,,Not evaluable: fewer than 30 constructs
+ESM2_score_Ridge_A,batch2,41,0.10853658536585369,0.058536585365853655,22,0.7333333333333333,21.951219512195124,1.0022222222222221,0.2299068333333333,Development-stage; retrospective reporting choice
+ESM2_score_Ridge_A,double_repeat,4,0.19999999999999998,0.0,,,,,,Not evaluable: fewer than 30 constructs
+ESM2_score_Ridge_B,all,66,0.09775597536791569,0.05174825174825175,16,0.5333333333333333,13.636363636363637,1.1733333333333333,0.263701,Development-stage; retrospective reporting choice
+ESM2_score_Ridge_B,batch1,25,-0.011538461538461539,-0.02666666666666666,,,,,,Not evaluable: fewer than 30 constructs
+ESM2_score_Ridge_B,batch2,41,0.10853658536585369,0.058536585365853655,22,0.7333333333333333,21.951219512195124,1.0022222222222221,0.2299068333333333,Development-stage; retrospective reporting choice
+ESM2_score_Ridge_B,double_repeat,4,0.19999999999999998,0.0,,,,,,Not evaluable: fewer than 30 constructs
+ESM2_score_zero_shot,all,66,-0.26542114601816097,-0.1655011655011655,9,0.3,13.636363636363637,0.66,0.22523841666666666,Development-stage; retrospective reporting choice
+ESM2_score_zero_shot,batch1,25,-0.11923076923076922,-0.07999999999999997,,,,,,Not evaluable: fewer than 30 constructs
+ESM2_score_zero_shot,batch2,41,-0.25940766550522654,-0.16097560975609757,21,0.7,21.951219512195124,0.9566666666666666,0.21721724999999997,Development-stage; retrospective reporting choice
+ESM2_score_zero_shot,double_repeat,4,-0.19999999999999998,0.0,,,,,,Not evaluable: fewer than 30 constructs
+Frozen_ESM_global_Ridge_B,all,66,0.22020665901262917,0.16083916083916083,18,0.6,13.636363636363637,1.32,0.26145349999999995,Development-stage; retrospective reporting choice
+Frozen_ESM_global_Ridge_B,batch1,25,-0.16846153846153847,-0.11999999999999998,,,,,,Not evaluable: fewer than 30 constructs
+Frozen_ESM_global_Ridge_B,batch2,41,0.4646341463414635,0.3463414634146341,24,0.8,21.951219512195124,1.0933333333333333,0.23688674999999995,Development-stage; retrospective reporting choice
+Frozen_ESM_global_Ridge_B,double_repeat,4,-0.7999999999999999,-0.6666666666666669,,,,,,Not evaluable: fewer than 30 constructs
+Frozen_ESM_local_Ridge_B,all,66,0.28905124726020254,0.19813519813519814,18,0.6,13.636363636363637,1.32,0.2711789166666667,Development-stage; retrospective reporting choice
+Frozen_ESM_local_Ridge_B,batch1,25,-0.16615384615384618,-0.12666666666666662,,,,,,Not evaluable: fewer than 30 constructs
+Frozen_ESM_local_Ridge_B,batch2,41,0.4156794425087109,0.2975609756097561,22,0.7333333333333333,21.951219512195124,1.0022222222222221,0.2345259999999999,Development-stage; retrospective reporting choice
+Frozen_ESM_local_Ridge_B,double_repeat,4,-0.6000000000000001,-0.3333333333333334,,,,,,Not evaluable: fewer than 30 constructs
+Hsu_ESM2_OneHot_Ridge_A,all,66,0.4049472915144558,0.26433566433566436,20,0.6666666666666666,13.636363636363637,1.4666666666666666,0.2915776666666667,Development-stage; retrospective reporting choice
+Hsu_ESM2_OneHot_Ridge_A,batch1,25,0.04923076923076923,0.0,,,,,,Not evaluable: fewer than 30 constructs
+Hsu_ESM2_OneHot_Ridge_A,batch2,41,0.5837979094076656,0.39268292682926825,23,0.7666666666666667,21.951219512195124,1.0477777777777777,0.23998674999999997,Development-stage; retrospective reporting choice
+Hsu_ESM2_OneHot_Ridge_A,double_repeat,4,0.0,0.0,,,,,,Not evaluable: fewer than 30 constructs
+Hsu_ESM2_OneHot_Ridge_B,all,66,0.3825696691368334,0.2261072261072261,19,0.6333333333333333,13.636363636363637,1.3933333333333333,0.2749784166666666,Development-stage; retrospective reporting choice
+Hsu_ESM2_OneHot_Ridge_B,batch1,25,0.009999999999999998,0.006666666666666665,,,,,,Not evaluable: fewer than 30 constructs
+Hsu_ESM2_OneHot_Ridge_B,batch2,41,0.5198606271777005,0.31951219512195117,21,0.7,21.951219512195124,0.9566666666666666,0.23469958333333338,Development-stage; retrospective reporting choice
+Hsu_ESM2_OneHot_Ridge_B,double_repeat,4,-1.0,-1.0,,,,,,Not evaluable: fewer than 30 constructs
+OneHot_Ridge_A,all,66,0.29184845005740534,0.1888111888111888,16,0.5333333333333333,13.636363636363637,1.1733333333333333,0.259205,Development-stage; retrospective reporting choice
+OneHot_Ridge_A,batch1,25,-0.08615384615384615,-0.05999999999999999,,,,,,Not evaluable: fewer than 30 constructs
+OneHot_Ridge_A,batch2,41,0.44756097560975616,0.2926829268292683,24,0.8,21.951219512195124,1.0933333333333333,0.2393305833333333,Development-stage; retrospective reporting choice
+OneHot_Ridge_A,double_repeat,4,-0.6000000000000001,-0.3333333333333334,,,,,,Not evaluable: fewer than 30 constructs
+OneHot_Ridge_B,all,66,0.18985492119820482,0.12167832167832168,15,0.5,13.636363636363637,1.0999999999999999,0.24157574999999995,Development-stage; retrospective reporting choice
+OneHot_Ridge_B,batch1,25,0.023076923076923078,0.006666666666666665,,,,,,Not evaluable: fewer than 30 constructs
+OneHot_Ridge_B,batch2,41,0.23432055749128924,0.14878048780487804,22,0.7333333333333333,21.951219512195124,1.0022222222222221,0.23123041666666663,Development-stage; retrospective reporting choice
+OneHot_Ridge_B,double_repeat,4,-1.0,-1.0,,,,,,Not evaluable: fewer than 30 constructs
+Position_only_Ridge_A,all,66,0.15470201440350695,0.08811188811188811,14.0,0.4666666666666667,13.636363636363637,1.0266666666666666,0.24132299999999998,Development-stage; retrospective reporting choice
+Position_only_Ridge_A,batch1,25,-0.3638461538461538,-0.2866666666666666,,,,,,Not evaluable: fewer than 30 constructs
+Position_only_Ridge_A,batch2,41,0.504006968641115,0.3317073170731707,24.0,0.8,21.951219512195124,1.0933333333333333,0.24352449999999998,Development-stage; retrospective reporting choice
+Position_only_Ridge_A,double_repeat,4,-0.7999999999999999,-0.6666666666666669,,,,,,Not evaluable: fewer than 30 constructs

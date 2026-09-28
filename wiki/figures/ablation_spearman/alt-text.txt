@@ -1,0 +1,1 @@
+Horizontal bars show combined model highest correlation, one-hot second, position-only third, score-only Ridge fourth, and negative zero-shot correlation.

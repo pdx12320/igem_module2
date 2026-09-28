@@ -1,0 +1,1 @@
+Five paired rank markers. P8-GVE: predicted 22, measured 2; P9-NTQ: 19, 6; P9-NPS: 15, 8; P9-NSG: 24, 11; P9-GNS: 4, 13.

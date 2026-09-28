@@ -1,0 +1,1 @@
+Five bars report Top30 hits 14, 16, 9, 16 and 20. Random expectation is 13.64.

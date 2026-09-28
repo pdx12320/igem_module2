@@ -1,0 +1,10 @@
+{
+  "protocol_sha256": "59ab5ffd82b57fcbc65de20301234bae282a06406aca931caef467392517be5d",
+  "score_sha256": "85a9200e170e5e5e2de4ca36f9a0d2d4a3eebbe8cb1f5210531e4f24a28607ec",
+  "targets_sha256": "62507cd8edacbfda4edc5ad8cd948e09b3adca12f19b5f4fbc4f749bc6d126c8",
+  "code": {
+    "run.py": "a9695de1a84bda566bdfea3546ee7b045a6f7a71cd182f2e8009400b0abda94b",
+    "model.py": "aefb98bd0c343982dbbc0ec2e44f3d52354794b1448586bf1bc43ce246645f69",
+    "score.py": "bb80829151ad9eb0309a7d757c06f89d3e0bbfe2b7a09471982be4cc797a2e23"
+  }
+}

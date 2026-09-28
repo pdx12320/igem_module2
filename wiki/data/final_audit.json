@@ -1,0 +1,8 @@
+{
+  "same_66_baseline_folds_verified": true,
+  "inner_selections_checked": 396,
+  "fasta_interface_rows": 81,
+  "max_interface_abs_error": 8.326672684688674e-17,
+  "original_ESM_checkpoint_verified": true,
+  "training_code_hashes_verified": true
+}

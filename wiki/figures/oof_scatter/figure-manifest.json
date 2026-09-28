@@ -1,0 +1,28 @@
+{
+  "template_version": "orca-data-1.1",
+  "font": "Futura",
+  "cjk_font": "Arial Unicode MS",
+  "notes": [],
+  "runtime": {
+    "python": "3.12.14",
+    "matplotlib": "3.10.8",
+    "numpy": "2.5.3"
+  },
+  "export": {
+    "width_in": 10.0,
+    "height_in": 6.25,
+    "dpi": 192.0,
+    "display_width_px": 960,
+    "svg_text": "paths",
+    "pdf_fonttype": 42
+  },
+  "provenance": {
+    "sources": {
+      "hsu_A_oof_rankings.csv": "d897a3564450edea069d6efa2cfee9174e8c3ba81455e15f6115e2cd6f9beaec"
+    },
+    "script": "scripts/plot_results.py",
+    "cohort": "66 complete constructs; development-stage grouped OOF",
+    "missing": "No imputation",
+    "excluded_outliers": 0
+  }
+}

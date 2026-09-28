@@ -1,0 +1,1 @@
+493-aa sequence branches into frozen ESM-2 mutation score and reference-centred one-hot features, joined by three Ridge outputs. Grouped inner CV selects parameters. Predicted specificity is evaluated on 66 held-out constructs against random selection.

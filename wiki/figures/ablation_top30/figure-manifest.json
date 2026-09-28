@@ -1,0 +1,28 @@
+{
+  "template_version": "orca-data-1.1",
+  "font": "Futura",
+  "cjk_font": "Arial Unicode MS",
+  "notes": [],
+  "runtime": {
+    "python": "3.12.14",
+    "matplotlib": "3.10.8",
+    "numpy": "2.5.3"
+  },
+  "export": {
+    "width_in": 11.0,
+    "height_in": 7.0,
+    "dpi": 174.54545454545453,
+    "display_width_px": 960,
+    "svg_text": "paths",
+    "pdf_fonttype": 42
+  },
+  "provenance": {
+    "source": "data/ablation_metrics.csv",
+    "sha256": "9ad7936575f70b813490fc79d937fd4b940c0d621561c867497a4f8d9ad9cbaf",
+    "n": 66,
+    "evaluation": "grouped OOF; same inner A rule for supervised models",
+    "script": "scripts/plot_ablations.py",
+    "uncertainty": "not estimated",
+    "reporting": "Top30 chosen retrospectively"
+  }
+}

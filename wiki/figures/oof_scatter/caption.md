@@ -1,0 +1,1 @@
+Measured versus grouped out-of-fold predicted S for 66 complete constructs. Spearman 0.404947 and Kendall 0.264336. All observations are shown, with the predicted Top30 highlighted; the dashed line indicates equality, not a fitted trend.
