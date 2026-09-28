@@ -1,0 +1,18 @@
+{
+  "seconds": 49.9436137676239,
+  "folds": 66,
+  "OOF_rows": 330,
+  "group_leakage_checks": true,
+  "old_predictions_max_difference": {
+    "OneHot_Ridge_A": 8.326672684688674e-17,
+    "ESM2_score_Ridge_A": 8.326672684688674e-17,
+    "Hsu_ESM2_OneHot_Ridge_A": 8.326672684688674e-17,
+    "ESM2_score_zero_shot": 3.552713678800501e-15
+  },
+  "software": {
+    "python": "3.11.15",
+    "numpy": "1.26.4",
+    "scipy": "1.11.4",
+    "sklearn": "1.5.2"
+  }
+}

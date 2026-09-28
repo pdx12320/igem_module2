@@ -4,8 +4,11 @@ import numpy as np,pandas as pd,scipy,sklearn
 from scipy.stats import spearmanr,kendalltau
 from scipy.sparse import csr_matrix
 from model import encode,fit,predict
-p=argparse.ArgumentParser();p.add_argument('--limit',type=int,default=66);a=p.parse_args();root=Path(__file__).resolve().parent;inp=root/'inputs';out=root/'results';out.mkdir(exist_ok=True)
-cfg=json.loads((root/'protocol.json').read_text());mf=pd.read_csv(inp/'construct_manifest.csv');ta=pd.read_csv(inp/'construct_targets.csv');assert mf.construct_id.tolist()==ta.construct_id.tolist();Y=ta[['C295','C388','C871']].to_numpy();ref=json.loads((inp/'reference.json').read_text())['reference'];logp=np.load(inp/'reference_masked_logp.npy');onehot,score=encode(mf.puf_sequence.tolist(),ref,logp);pos=csr_matrix(np.array([[a!=b for a,b in zip(s,ref)] for s in mf.puf_sequence],float));groups=mf.leakage_group.to_numpy();folds=json.loads((inp/'splits.json').read_text());assert len(mf)==81 and np.isfinite(Y).all(1).sum()==66 and len(ref)==493
+p=argparse.ArgumentParser();p.add_argument('--limit',type=int,default=66);p.add_argument('--output',type=Path,help='New results directory; omit to resume bundled results');a=p.parse_args();root=Path(__file__).resolve().parent;inp=root/'inputs';out=a.output.resolve() if a.output else root/'results';out.mkdir(parents=True,exist_ok=True)
+cfg=json.loads((root/'protocol.json').read_text());
+for name,expected in cfg['inputs'].items():
+ assert hashlib.sha256((inp/name).read_bytes()).hexdigest()==expected, f'Input changed: {name}; this protocol reproduces the fixed dataset only'
+mf=pd.read_csv(inp/'construct_manifest.csv');ta=pd.read_csv(inp/'construct_targets.csv');assert mf.construct_id.tolist()==ta.construct_id.tolist();Y=ta[['C295','C388','C871']].to_numpy();ref=json.loads((inp/'reference.json').read_text())['reference'];logp=np.load(inp/'reference_masked_logp.npy');onehot,score=encode(mf.puf_sequence.tolist(),ref,logp);pos=csr_matrix(np.array([[a!=b for a,b in zip(s,ref)] for s in mf.puf_sequence],float));groups=mf.leakage_group.to_numpy();folds=json.loads((inp/'splits.json').read_text());assert len(mf)==81 and np.isfinite(Y).all(1).sum()==66 and len(ref)==493
 assert (pos.sum(1).A.ravel()==onehot.getnnz(1)/2).all()
 def S(y):return y[:,1]-(y[:,0]+y[:,2])/2
 def obj(y,q,ids):

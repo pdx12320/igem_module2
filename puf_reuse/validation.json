@@ -1,0 +1,19 @@
+{
+  "example_prediction_rows": 3,
+  "fresh_outer_fold_pilot": "pass",
+  "pilot_max_prediction_difference": {
+    "Position_only_Ridge": 0.0,
+    "OneHot_Ridge": 0.0,
+    "ESM2_score_Ridge": 0.0,
+    "Hsu_ESM2_OneHot_Ridge": 1.2534417948018017e-13
+  },
+  "tested_dependencies": {
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "scikit-learn": "1.5.2",
+    "pandas": "2.2.3",
+    "joblib": "1.5.3"
+  },
+  "tested_in_existing_environment": true,
+  "clean_environment_install_not_run": true
+}
