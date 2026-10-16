@@ -1,4 +1,6 @@
 # iGEM Module 2 — PUF specificity modelling
+The main Wiki text and figures are synchronized from the current [WIKI_SUSTech-BIO Model page source](https://github.com/pdx12320/WIKI_SUSTech-BIO/tree/main/wiki/components/model). See [source and figure checksums](wiki/CURRENT_MODEL_SOURCE.json).
+
 
 ## Wiki pages
 
@@ -6,7 +8,7 @@
 - [Module 2 Design–Build–Test–Learn](wiki/PUF_Module2_DBTL_EN_ESM.md)
 - [Reusable Markdown and image addresses](wiki/REUSE_LINKS.md)
 
-The current pages include the PUF-ESM Specificity Ranker (ESM-2 score + one-hot + Ridge), matched feature ablations, Top5/15/30 recovery, and 15 retrospective case examples. All model assessments are development-stage cross-validation, not independent prospective validation.
+The main Wiki page follows the current WIKI_SUSTech-BIO content and figures and includes the PUF-ESM Specificity Ranker (ESM-2 score + one-hot + Ridge), matched feature ablations, Top5/15/30 recovery, and the current Wiki figures. All model assessments are development-stage cross-validation, not independent prospective validation.
 
 ## Reproducibility
 

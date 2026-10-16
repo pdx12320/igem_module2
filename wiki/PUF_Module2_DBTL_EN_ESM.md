@@ -96,13 +96,6 @@ We retain the original five highlighted constructs alongside the rank-agreement 
 
 *Figure 6. The original five highlighted constructs, ranked among the same 66 complete constructs. All enter the predicted Top30, although their exact ranks differ from measurement. Each prediction excludes its own sequence group from training. Existing measurements provide retrospective comparison, not independent prospective validation.*
 
-| Construct | Predicted S | Measured S | Predicted rank / 66 | Measured rank / 66 | Predicted Top30 |
-|---|---:|---:|---:|---:|:---:|
-| P8-GVE | 0.240 | 0.481 | 22 | 2 | Yes |
-| P9-NTQ | 0.245 | 0.422 | 19 | 6 | Yes |
-| P9-NPS | 0.270 | 0.375 | 15 | 8 | Yes |
-| P9-NSG | 0.233 | 0.345 | 24 | 11 | Yes |
-| P9-GNS | 0.339 | 0.342 | 4 | 13 | Yes |
 
 ### Retrospective examples of agreement at higher and lower ranks
 
@@ -113,26 +106,6 @@ Within each eligible group, we chose the five smallest absolute differences betw
 ![Five concordant higher-ranked examples followed by five concordant lower-ranked examples](https://raw.githubusercontent.com/pdx12320/igem_module2/main/wiki/figures/selected_cases/figure@2x.png)
 
 *Figure 7. Post hoc rank-agreement examples for PUF-ESM among 66 complete constructs. The first five cases belong to both Top30 sets; the final five belong to both bottom-30 sets. Every prediction excludes its own sequence group during training. Cases were selected for small absolute rank errors, so their agreement is not representative of the whole cohort. Existing measurements provide retrospective comparison, not subsequent independent validation.*
-
-#### Five higher-ranked examples
-
-| Construct | Predicted S | Measured S | Predicted rank / 66 | Measured rank / 66 | Absolute rank error |
-|---|---:|---:|---:|---:|---:|
-| P9-NFP | 0.270 | 0.336 | 14 | 14 | 0 |
-| P4-SNE + P7-SNE | 0.406 | 0.541 | 2 | 1 | 1 |
-| P1-GVD | 0.243 | 0.257 | 21 | 23 | 2 |
-| P9-QKQ | 0.266 | 0.264 | 16 | 19 | 3 |
-| P9-NWP | 0.244 | 0.288 | 20 | 17 | 3 |
-
-#### Five lower-ranked examples
-
-| Construct | Predicted S | Measured S | Predicted rank / 66 | Measured rank / 66 | Absolute rank error |
-|---|---:|---:|---:|---:|---:|
-| P2-CKR | 0.180 | 0.133 | 60 | 60 | 0 |
-| P5-AYE | 0.211 | 0.201 | 42 | 44 | 2 |
-| P2-CRR | 0.176 | 0.106 | 61 | 63 | 2 |
-| P2-TKR | 0.166 | 0.140 | 62 | 59 | 3 |
-| P10-SRQ | 0.201 | 0.198 | 49 | 45 | 4 |
 
 The higher-ranked examples differ from their measured ranks by 0–3 places; the lower-ranked examples differ by 0–4 places. Close ranks do not necessarily imply accurate absolute S values. For example, P4-SNE + P7-SNE ranks second by prediction and first by measurement, but its predicted S (0.406) underestimates the measured S (0.541).
 

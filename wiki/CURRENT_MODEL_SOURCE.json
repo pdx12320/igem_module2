@@ -1,0 +1,84 @@
+{
+  "source_repository": "pdx12320/WIKI_SUSTech-BIO",
+  "source_base_commit": "1d7127f61ce6830a66eb1fb54d371fa715562882",
+  "source_component": "wiki/components/model/module2.html",
+  "includes": "wiki/components/model/conclusions/module2.html",
+  "local_edits": "Stage II evaluation unit clarified as window; obsolete prose copies removed.",
+  "figures": [
+    {
+      "source_path": "static/assets/model/icon-flowcharts-20261016/figure-10-puf-esm.svg",
+      "destination": "wiki/figures/current-model/model-figure-10-panel1.svg",
+      "sha256": "55a86613eb3ee38b8995aae592b0a026347f7478366ca5c3684643a3f31293a8"
+    },
+    {
+      "source_path": "static/assets/model/igem_module2/wiki/figures/topk_random/figure@2x.png",
+      "destination": "wiki/figures/current-model/model-figure-11-panel1.png",
+      "sha256": "6af2fc0c7494e7d3f68021fd6464a6dda57ae434840d6ee784d6a01afc83de8d"
+    },
+    {
+      "source_path": "static/assets/model/igem_module2/wiki/figures/oof_scatter/figure@2x.png",
+      "destination": "wiki/figures/current-model/model-figure-12-panel1.png",
+      "sha256": "1e878647cd9a3311f6f46e705aaa7631242bf5baf14a8b084d6e35352c875e56"
+    },
+    {
+      "source_path": "static/assets/model/igem_module2/wiki/figures/ablation_spearman/figure@2x.png",
+      "destination": "wiki/figures/current-model/model-figure-13-panel1.png",
+      "sha256": "58fad9d0c5540ee364c3de0f90938d89a2b3349b272b84f97c4367932076d8d9"
+    },
+    {
+      "source_path": "static/assets/model/igem_module2/wiki/figures/ablation_top30/figure@2x.png",
+      "destination": "wiki/figures/current-model/model-figure-14-panel1.png",
+      "sha256": "159782e97ef2af1e351e0ad9996f4757838ea983627eb733ca50d23d1ad68345"
+    },
+    {
+      "source_path": "static/assets/model/igem_module2/wiki/main_model_layer_sensitivity/figures/ranking/figure@2x.png",
+      "destination": "wiki/figures/current-model/model-figure-15-panel1.png",
+      "sha256": "aff84c8af5adfbf20a170d754a0b9a01c30ddf6262221d40ffb327a93ea2e59e"
+    },
+    {
+      "source_path": "static/assets/model/igem_module2/wiki/main_model_layer_sensitivity/figures/spearman/figure@2x.png",
+      "destination": "wiki/figures/current-model/model-figure-16-panel1.png",
+      "sha256": "361cb7ee391a8f9552d3f0b42f7b90401aeb99d1c225f993736e09119f1fa204"
+    },
+    {
+      "source_path": "static/assets/model/igem_module2/wiki/main_model_layer_sensitivity/figures/topk/figure@2x.png",
+      "destination": "wiki/figures/current-model/model-figure-17-panel1.png",
+      "sha256": "9b3ab3a72fd6bda651c02f4e3890ccfb1e0095bf203586c4d479a1dd881d8202"
+    },
+    {
+      "source_path": "static/assets/model/igem_module2/wiki/figures/five_targets/figure@2x.png",
+      "destination": "wiki/figures/current-model/model-figure-18-panel1.png",
+      "sha256": "61a803bcf551624a02519a793b50a0318d75111c8fc0a306aa0b6b3db828c96e"
+    },
+    {
+      "source_path": "static/assets/model/igem_module2/wiki/figures/selected_cases/figure@2x.png",
+      "destination": "wiki/figures/current-model/model-figure-19-panel1.png",
+      "sha256": "2150ccded216dfbe55d1192eaff38b646e7854e601b434246f35769578006f2a"
+    },
+    {
+      "source_path": "static/assets/model/icon-flowcharts-20261016/figure-20-inverse-folding.svg",
+      "destination": "wiki/figures/current-model/model-figure-20-panel1.svg",
+      "sha256": "9f6a17718a0b2bdd30c4477c1d6169437c1d573bdc49f2b925098bbe2121eee6"
+    },
+    {
+      "source_path": "static/assets/model/igem_module2/wiki/inverse_folding_20260928/figures/nontrm_screen/figure@2x.png",
+      "destination": "wiki/figures/current-model/model-figure-21-panel1.png",
+      "sha256": "78ec179a7098adb19098df28d497aeaa374f7f38c9ebebfa20818dc1903cc1bb"
+    },
+    {
+      "source_path": "static/assets/model/igem_module2/wiki/inverse_folding_20260928/figures/trm_frequencies/figure@2x.png",
+      "destination": "wiki/figures/current-model/model-figure-22-panel1.png",
+      "sha256": "9ca0958f67e27a28e6e8cf871d8377cea914b1876bf8d67dee3b9443e4854bc6"
+    },
+    {
+      "source_path": "static/assets/model/igem_module2/wiki/inverse_folding_20260928/figures/assay_comparison/figure@2x.png",
+      "destination": "wiki/figures/current-model/model-figure-23-panel1.png",
+      "sha256": "2641b7d8ba6b41a085e41bbc212e48b355438e680f54cbb7196249c571ace2c6"
+    },
+    {
+      "source_path": "static/assets/model/igem_module2/wiki/inverse_folding_20260928/figures/single_scores/figure@2x.png",
+      "destination": "wiki/figures/current-model/model-figure-24-panel1.png",
+      "sha256": "094716e3eea3975560efd0279a5fbd66f7fcca0e9fc68bc18b71f80a2b84810b"
+    }
+  ]
+}
