@@ -3,7 +3,7 @@
   "source_base_commit": "1d7127f61ce6830a66eb1fb54d371fa715562882",
   "source_component": "wiki/components/model/module2.html",
   "includes": "wiki/components/model/conclusions/module2.html",
-  "local_edits": "Stage II evaluation unit clarified as window; obsolete prose copies removed.",
+  "local_edits": "Main Wiki narrative, conclusions and figures synchronized from the current Model page; obsolete duplicate case tables removed from DBTL.",
   "figures": [
     {
       "source_path": "static/assets/model/icon-flowcharts-20261016/figure-10-puf-esm.svg",
